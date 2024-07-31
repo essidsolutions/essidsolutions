@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  mariadb:
+    image: 'bitnami/mysql:latest'
+    environment:
+      - MYSQL_ROOT_PASSWORD=your_root_password
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_USER=essidsolutions
+      - MYSQL_PASSWORD=ALLAH#9271159955@
+    volumes:
+      - 'mariadb_data:/bitnami/mysql'
+
+  wordpress:
+    image: 'bitnami/wordpress:latest'
+    depends_on:
+      - mariadb
+    ports:
+      - '80:8080'
+    environment:
+      - WORDPRESS_DB_HOST=mariadb
+      - WORDPRESS_DB_NAME=wordpress
+      - WORDPRESS_DB_USER=wordpress
+      - WORDPRESS_DB_PASSWORD=ALLAH#9271159955@
+    volumes:
+      - 'wordpress_data:/bitnami/wordpress'
+
+volumes:
+  mariadb_data:
+    driver: local
+  wordpress_data:
+    driver: local
