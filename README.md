@@ -18,14 +18,18 @@ Essid Solutions Unipersonal LDA · Lisbon, Portugal · [essidsolutions.com](http
 
 ## Tech focus
 
-`Apache Airflow` · `Apache Spark` · `Databricks` · `Docker` · `Kubernetes` · `dbt` · `Delta Lake` · `Terraform` · `Azure Data Factory` · Data contracts · GDPR-aligned governance
+`Apache Airflow` · `Apache Spark` · `Apache Kafka` · `Trino` · `Databricks` · `Docker` · `Kubernetes` · `dbt` · `Delta Lake` · `Apache Iceberg` · `BigQuery` · `Terraform` · Data contracts · GDPR-aligned governance
 
 ## Featured work
 
 | Repository | Description |
 |------------|-------------|
 | [data-fabric-patterns](https://github.com/essidsolutions/data-fabric-patterns) | Self-service ingestion, DDL generation, and governed data-product patterns |
+| [trino-sql-platform-patterns](https://github.com/essidsolutions/trino-sql-platform-patterns) | Trino/Starburst SQL workloads, materialized views, and cost guardrails |
 | [databricks-lakehouse-patterns](https://github.com/essidsolutions/databricks-lakehouse-patterns) | Databricks jobs, Delta Lake maintenance, medallion notebooks, cluster policies |
+| [iceberg-lakehouse-patterns](https://github.com/essidsolutions/iceberg-lakehouse-patterns) | Apache Iceberg DDL, partitioning, and snapshot maintenance |
+| [kafka-streaming-patterns](https://github.com/essidsolutions/kafka-streaming-patterns) | Kafka streaming ingestion, DLQ, dedup, IoT telemetry examples |
+| [gcp-bigquery-patterns](https://github.com/essidsolutions/gcp-bigquery-patterns) | BigQuery partitioning, incremental MERGE, Cloud Composer DAGs |
 | [lakehouse-terraform-kit](https://github.com/essidsolutions/lakehouse-terraform-kit) | Multi-cloud lakehouse IaC — Azure ADF/Data Lake and AWS Glue/S3 modules |
 | [airflow-platform-standards](https://github.com/essidsolutions/airflow-platform-standards) | Standardised DAG factory and authoring guide for large orchestration estates |
 | [data-contracts-governance](https://github.com/essidsolutions/data-contracts-governance) | Data contracts, quality checks, lineage stubs, and PII handling patterns |
