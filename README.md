@@ -18,16 +18,19 @@ Essid Solutions Unipersonal LDA · Lisbon, Portugal · [essidsolutions.com](http
 
 ## Tech focus
 
-`Apache Airflow` · `Apache Spark` · `Databricks` · `dbt` · `Delta Lake` · `Apache Iceberg` · `Terraform` · `Azure Data Factory` · `Snowflake` · Data contracts · GDPR-aligned governance
+`Apache Airflow` · `Apache Spark` · `Databricks` · `Docker` · `Kubernetes` · `dbt` · `Delta Lake` · `Terraform` · `Azure Data Factory` · Data contracts · GDPR-aligned governance
 
 ## Featured work
 
 | Repository | Description |
 |------------|-------------|
 | [data-fabric-patterns](https://github.com/essidsolutions/data-fabric-patterns) | Self-service ingestion, DDL generation, and governed data-product patterns |
+| [databricks-lakehouse-patterns](https://github.com/essidsolutions/databricks-lakehouse-patterns) | Databricks jobs, Delta Lake maintenance, medallion notebooks, cluster policies |
 | [lakehouse-terraform-kit](https://github.com/essidsolutions/lakehouse-terraform-kit) | Multi-cloud lakehouse IaC — Azure ADF/Data Lake and AWS Glue/S3 modules |
 | [airflow-platform-standards](https://github.com/essidsolutions/airflow-platform-standards) | Standardised DAG factory and authoring guide for large orchestration estates |
 | [data-contracts-governance](https://github.com/essidsolutions/data-contracts-governance) | Data contracts, quality checks, lineage stubs, and PII handling patterns |
+| [data-platform-docker-starter](https://github.com/essidsolutions/data-platform-docker-starter) | Docker Compose local stack — Airflow, Postgres, MinIO S3-compatible storage |
+| [kubernetes-data-platform](https://github.com/essidsolutions/kubernetes-data-platform) | Kubernetes Spark CronJobs, ConfigMaps, and prod overlays for batch workloads |
 
 ## Currently
 
