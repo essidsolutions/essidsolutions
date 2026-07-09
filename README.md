@@ -42,7 +42,7 @@ Building platform capabilities for **governed data products** and **self-service
 
 ## Open to
 
-Senior individual contributor and technical lead roles in **lakehouse / data platform engineering** — remote-first EU or relocation to Netherlands, Nordics, or Germany.
+Senior individual contributor and technical lead roles in **lakehouse / data platform engineering**
 
 ---
 
